@@ -25,12 +25,12 @@ In a nutshell: if we write (or transpile to) and ship ES2017 code, we can target
 
 ## But should we?
 
-Not supporting IE, which now amounts to less than 5% of the global internet traffic, is still a big *no-no* in the web development industry. But my answer to this question is: absolutely yes. According to the aforementioned presentation, legacy JS is requires a larger download and it is also slower — not just because a lot more code is downloaded, but also because it actually **runs slower** in the browser's runtime.
+Not supporting IE, which now amounts to less than 5% of the global internet traffic, is still a big *no-no* in the web development industry. Opera Mini's extreme mode would also get axed if we exclusively write and ship ES2017. However, my answer to this question is: absolutely yes. According to the aforementioned [presentation](https://www.youtube.com/watch?v=cLxNdLK--yI)/[blog post](https://web.dev/publish-modern-javascript), which I highly suggest checking out, legacy JS requires a significantly larger download, and it is also quite slower — not just because a lot more code is downloaded, but also because it actually **runs slower** in the browser's runtime.
 
-I highly suggest watching the presentation [here](https://www.youtube.com/watch?v=cLxNdLK--yI) or reading the blog post [here](https://web.dev/publish-modern-javascript).
+That's right: the same code, when transpiled to an older version of JavaScript, runs drastically slower, compared to the original modern JavaScript code.
 
 ## Okay, what else?
 
-I would also like to try out [web components](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Perhaps, I would give some lightweight CSS/JS libraries a try (using CDN, of course). I have not decided on a build-tool yet.
+I would also like to try out [web components](https://www.webcomponents.org) ([MDN](https://developer.mozilla.org/en-US/docs/Web/Web_Components)). Perhaps, I would give some lightweight CSS/JS libraries a try (using CDN, of course). I have not decided on a build-tool yet.
 
-My affinity for [TypeScript](https://github.com/microsoft/TypeScript) is not a brand new information to the people who know me. But, at times, constnt type-checking and often-obscure error messgaes feel exhausting. I will probably give [Hegel](https://github.com/JSMonk/hegel) a try for this project.
+My affinity for [TypeScript](https://github.com/microsoft/TypeScript) is not brand new information to the people who know me. But, at times, constant type-checking and often-obscure error messages feel exhausting. I will probably give [Hegel](https://github.com/JSMonk/hegel) a try for this project.
