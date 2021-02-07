@@ -20,8 +20,8 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-import { BlogPost, Author } from './models'
-import { getDetailString } from './utils'
+import { BlogPost, Author } from './models.js'
+import { getDetailString } from './utils.js'
 
 const blogPost = new BlogPost('Making a whole website with plain ES2017')
 const author = new Author('Ahad Chowdhury')

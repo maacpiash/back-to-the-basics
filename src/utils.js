@@ -20,7 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-import { BlogPost, Author } from './models'
+import { BlogPost, Author } from './models.js'
 
 export function getDetailString(blogPost, author) {
 	if (blogPost instanceof BlogPost && author instanceof Author) {
